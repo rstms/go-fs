@@ -3,7 +3,7 @@ package fat
 import (
 	"testing"
 
-	"github.com/mitchellh/go-fs"
+	fs "github.com/rstms/go-fs"
 )
 
 func TestFileSystemImplementsFileSystem(t *testing.T) {

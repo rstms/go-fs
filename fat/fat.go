@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/mitchellh/go-fs"
+	"github.com/rstms/go-fs"
 )
 
 // The first cluster that can really hold user data is always 2

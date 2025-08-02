@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mitchellh/go-fs"
+	"github.com/rstms/go-fs"
 )
 
 func TestAddFile(t *testing.T) {

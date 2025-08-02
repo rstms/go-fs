@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mitchellh/go-fs"
+	"github.com/rstms/go-fs"
 )
 
 // SuperFloppyConfig is the configuration for various properties of

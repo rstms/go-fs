@@ -1,7 +1,7 @@
 package fat
 
 import (
-	"github.com/mitchellh/go-fs"
+	"github.com/rstms/go-fs"
 )
 
 // FileSystem is the implementation of fs.FileSystem that can read a

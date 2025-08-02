@@ -10,7 +10,7 @@ import (
 	"time"
 	"unicode/utf16"
 
-	"github.com/mitchellh/go-fs"
+	"github.com/rstms/go-fs"
 )
 
 type DirectoryAttr uint8

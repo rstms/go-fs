@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mitchellh/go-fs"
+	"github.com/rstms/go-fs"
 )
 
 // Directory implements fs.Directory and is used to interface with
@@ -133,6 +133,10 @@ func (d *DirectoryEntry) File() (fs.File, error) {
 	}
 
 	return result, nil
+}
+
+func (d *DirectoryEntry) Size() int64 {
+	return int64(0)
 }
 
 func (d *DirectoryEntry) IsDir() bool {

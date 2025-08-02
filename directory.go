@@ -15,4 +15,5 @@ type DirectoryEntry interface {
 	IsDir() bool
 	Dir() (Directory, error)
 	File() (File, error)
+	Size() int64
 }
